@@ -1,1 +1,108 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #fff8e7;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
 
+#page-container {
+    width: 95%;
+    margin: 20px auto;
+}
+
+#main-header {
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #ffe4b5;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.links-box {
+    width: 20%;
+}
+
+.picture-box {
+    width: 50%;
+    text-align: center;
+}
+
+.rating-box {
+    width: 30%;
+}
+
+#ingredients,
+#equipment,
+#directions {
+    width: 33.33%;
+}
+
+.picture-box img {
+    width: 280px;
+    max-width: 100%;
+    border-radius: 12px;
+    border: 4px solid #8b4513;
+}
+
+#caption {
+    font-style: italic;
+    color: #6b4226;
+}
+
+h1,
+h2,
+h3 {
+    color: #8b4513;
+}
+
+#main-header h1 {
+    color: white;
+}
+
+a {
+    color: #006400;
+    font-weight: bold;
+}
+
+input {
+    margin: 8px 0;
+    padding: 5px;
+}
+
+fieldset {
+    border: 2px solid #8b4513;
+    padding: 10px;
+}
+
+#main-footer {
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#main-footer a {
+    color: #ffe4b5;
+}
